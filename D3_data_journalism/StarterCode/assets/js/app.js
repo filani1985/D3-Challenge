@@ -24,7 +24,7 @@ var chartGroup = svg.append("g")
 d3.select("body").append("div").attr("class", "tooltip").style("opacity", 0);
 
 // Import Data
-d3.csv("/assets/data/data.csv", function(err, healthData) {
+d3.csv("/D3_data_journalism/StarterCode/assets/data/data.csv", function(err, healthData) {
   if (err) throw err;
 console.log(healthData)
   // Step 1: Parse Data/Cast as numbers
